@@ -1,6 +1,6 @@
 # 00 — OrchDocs Constitution
 
-Status: DRAFT · Topo da hierarquia dos documentos do OrchDocs (`docs/orchdocs/`): Constitution > PRD > TRD > Pipeline Spec > Implementation Plan.
+Status: FROZEN · Topo da hierarquia dos documentos do OrchDocs (`docs/orchdocs/`): Constitution > PRD > TRD > Pipeline Spec > Implementation Plan.
 Essa hierarquia não se aplica aos documentos de um Project, que seguem P3 e a Decision Policy (§4).
 
 ## 1. Missão
