@@ -1,5 +1,10 @@
 {
   "documents": {
-    "00_CONSTITUTION.md": {"status": "FROZEN"}
+    "00_CONSTITUTION.md": {
+      "status": "FROZEN"
+    },
+    "01_PRD.md": {
+      "status": "DRAFT"
+    }
   }
 }
