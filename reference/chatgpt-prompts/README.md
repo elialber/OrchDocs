@@ -7,7 +7,7 @@ Conteúdo esperado (colado pelo autor, sem edição):
 - `00` a `12`
 - `03A`, `03B`, `03C`
 - `06A`
-- transição para produção
+- transição para produção (origem do Stage 13 Production Handoff)
 
 Regras:
 

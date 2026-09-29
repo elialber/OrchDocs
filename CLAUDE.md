@@ -1,12 +1,13 @@
 # OrchDocs
 
 Orquestrador que recebe a ideia bruta de um jogo (o Brief) e produz a documentação de pré-produção, um documento por vez.
-Sequência: Game Constitution → … → Implementation Plan, com gate de protótipo.
-Cada documento é escrito a partir dos anteriores. Vocabulário em `CONTEXT.md`.
+Sequência: 00 Game Constitution → … → 12A Pre-Implementation Audit → 13 Production Handoff, com gate de protótipo em 03C.
+Cada documento é escrito a partir dos anteriores. Normas em `docs/orchdocs/00_CONSTITUTION.md`; vocabulário em `CONTEXT.md`.
 
 ## Regras
 
-- Um documento por vez. Só comece o próximo depois da Approval do atual.
+- Um documento por vez. Só comece o próximo depois do Freeze do atual.
+- Documentos de `docs/orchdocs/` só congelam com o "aprovado" do operador. Em Projects, avance sozinho e pare apenas em OPEN DECISION, gate 03C, Change Request ou teto de custo.
 - Antes de escrever, leia todos os documentos anteriores do Project.
 - Documento FROZEN é imutável: registre a mudança como Change Request. O hook de PreToolUse bloqueia a escrita.
 - Decisão ausente nas fontes vira `OPEN DECISION: <pergunta>`; nunca a preencha por conta própria.
