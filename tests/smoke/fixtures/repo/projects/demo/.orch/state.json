@@ -1,0 +1,6 @@
+{
+  "stage": "prd",
+  "documents": {
+    "docs/constitution.md": {"status": "FROZEN"}
+  }
+}
